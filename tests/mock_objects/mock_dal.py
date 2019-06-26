@@ -1,4 +1,4 @@
-from abstracts.base_dal import BaseDAL
+from abstracts.abstract_dal import BaseDAL
 from models.user import User
 
 

@@ -2,7 +2,7 @@ from contextlib import contextmanager
 from dataclasses import asdict
 from typing import ContextManager
 
-from abstracts.base_dal import BaseDAL
+from abstracts.abstract_dal import BaseDAL
 
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker, Session

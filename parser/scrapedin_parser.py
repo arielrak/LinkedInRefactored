@@ -1,7 +1,7 @@
 from Naked.toolshed.shell import muterun_js
 import yaml
 
-from abstracts.base_parser import BaseParser
+from abstracts.abstract_parser import BaseParser
 from models.user import User
 
 
